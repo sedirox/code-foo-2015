@@ -1,0 +1,36 @@
+In order to find out the number of ping-pong balls that’ll fit in a 747, we’ll need to split the plane up into different parts and find the number of ping pong balls that’ll fit into each part:
+
+Cockpit
+Cargo hold
+Overhead baggage area
+Main cabin+Upper cabin: General passenger volume
+
+Assume the ping-pong ball has a radius of 4cm. The volume of 1 ball would be
+ V = (4/3)pi(r^3) where r is the radius at 4cm, giving us a volume of approximately 268.1 cm^3
+
+Using this,we can find the number of ping-pong balls that will fit into each part of a 747 with the formula
+
+Number of ping-pong balls = volume of component/ volume of ping-pong ball
+(Making sure the units are the same)
+
+Finally, we add all the parts together to get an approximate to the number of ping-pong balls that’ll fit in a 747.
+
+Cargo hold: 4546ft^3
+Changing the units of one ping pong ball from cm^3 to ft^3 we get 0.0095ft^3
+4546/0.0095 is approximately 478,526 ping pong balls.
+
+Cockpit: 1680ft^3
+1680/0.0095 is approximately 176,842 ping pong balls
+
+Main cabin + upper cabin: 26600ft^3
+26600/0.0095 is approximately 2,800,000 ping pong balls.
+
+Overhead baggage area: 1200ft^3
+1200/0.0095 is approximately 126,315 ping pong balls
+
+Now we add up all the numbers to get the total number of ping pong balls that’ll fit in a 747
+
+478526+176842+2800000+126315 = 3,581,682 ping pong balls
+
+Therefore, about 3,581,682 ping pong balls would be needed to fill a 747.
+
